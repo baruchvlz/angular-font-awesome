@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "module": "es2015",
+    "target": "es5",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "declaration": true,
+    "moduleResolution": "node",
+    "noUnusedLocals": true,
+    "types": [
+      "hammerjs",
+      "jasmine",
+      "node"
+    ],
+    "lib": ["es2015", "dom"]
+  },
+  "files": [
+    "index.ts",
+    "ng-font-awesome.ts",
+    "./src/font-awesome.directive.ts",
+    "tests/font-awesome.directive.spec.ts",
+    "./src/font-awesome.component.ts",
+    "tests/font-awesome.component.spec.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "bundles"
+  ],
+  "angularCompilerOptions": {
+    "strictMetadataEmit": true,
+    "skipTemplateCodegen": true
+  }
+}

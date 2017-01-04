@@ -1,0 +1,17 @@
+## Misc
+**/.DS_Store
+node_modules/*
+npm-debug.log
+*.js
+!config/*
+!karma.conf.js
+!webpack.config.js
+*.map
+*.d.ts
+
+## Windows
+Thumbs.db
+Desktop.ini
+
+## Mac
+.DS_Store
