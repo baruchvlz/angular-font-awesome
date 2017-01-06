@@ -19,7 +19,8 @@
     "angular",
     "angular2",
     "ng",
-    "ng2"
+    "ng2",
+    "angular2-font-awesome"
   ],
   "author": "Baruch Velez <baruchvelez@gmail.com>",
   "license": "MIT",
