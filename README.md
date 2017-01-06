@@ -4,12 +4,12 @@ Simple, easy to use Angular 2 component to manage Font Awesome icons.
 # How to install
 
 **Install Packages**
-`npm install --save font-awesome ng2-font-awesome`
+`npm install --save font-awesome angular2-font-awesome`
 
 **Import the module:**
 ```typescript
 //...
-import { FontAwesomeModule } from 'ng2-font-awesome/ng2-font-awesome';
+import { FontAwesomeModule } from 'angular2-font-awesome/angular2-font-awesome';
 @NgModule({
   //...
   imports: [
