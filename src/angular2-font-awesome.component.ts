@@ -19,6 +19,9 @@ export class Angular2FontAwesomeComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    if(!this.name){
+      throw new Error('Missing "name" property for Angular2 Font Awesome component');
+    }
     if(this.size) {
       this.addToOptionalClasses(`fa-${this.size}`);
     }
