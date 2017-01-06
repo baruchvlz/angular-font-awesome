@@ -1,9 +1,9 @@
 import { NgModule, ModuleWithProviders } from "@angular/core";
 import { CommonModule } from '@angular/common';
 // import { FontAwesomeDirective } from './src/font-awesome.directive';
-import { FontAwesomeComponent } from './src/font-awesome.component';
+import { Angular2FontAwesomeComponent } from './src/angular2-font-awesome.component';
 
-export * from './src/font-awesome.component';
+export * from './src/angular2-font-awesome.component';
 // export * from './src/font-awesome.directive';
 
 @NgModule({
@@ -12,17 +12,17 @@ export * from './src/font-awesome.component';
   ],
   declarations:[
     // FontAwesomeDirective,
-    FontAwesomeComponent
+    Angular2FontAwesomeComponent
   ],
   exports: [
     // FontAwesomeDirective,
-    FontAwesomeComponent
+    Angular2FontAwesomeComponent
   ]
 })
-export class FontAwesomeModule {
+export class Angular2FontAwesomeModule {
   static forRoot(): ModuleWithProviders {
     return {
-      ngModule: FontAwesomeModule,
+      ngModule: Angular2FontAwesomeModule,
       providers: []
     }
   }

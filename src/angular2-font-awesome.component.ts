@@ -6,7 +6,7 @@ import { Component, OnInit, Input, Optional } from '@angular/core';
     <i class="fa fa-{{name}}" [ngClass]="optionalClasses" aria-hidden="true"></i>
   `
 })
-export class FontAwesomeComponent implements OnInit {
+export class Angular2FontAwesomeComponent implements OnInit {
   @Input() name        : string;
   // Optional Inputs
   @Input() title      ?: string;
