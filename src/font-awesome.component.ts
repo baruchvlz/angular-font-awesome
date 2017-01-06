@@ -1,7 +1,7 @@
 import { Component, OnInit, Input, Optional } from '@angular/core';
 
 @Component({
-  selector: '[fa], [ng2-fa], [ng-fa]',
+  selector: 'fa',
   template: `
     <i class="fa fa-{{name}}" [ngClass]="optionalClasses" aria-hidden="true"></i>
   `
