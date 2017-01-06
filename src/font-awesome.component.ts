@@ -7,13 +7,13 @@ import { Component, OnInit, Input, Optional } from '@angular/core';
   `
 })
 export class FontAwesomeComponent implements OnInit {
-  @Input()             name       : string;
+  @Input() name        : string;
   // Optional Inputs
-  @Optional() @Input() title      : string;
-  @Optional() @Input() size       : string;
-  @Optional() @Input() fixed      : boolean;
-  @Optional() @Input() animation  : string;
-  @Optional() @Input() rotate     : string | number;
+  @Input() title      ?: string;
+  @Input() size       ?: string;
+  @Input() fixed      ?: boolean;
+  @Input() animation  ?: string;
+  @Input() rotate     ?: string | number;
 
   private optionalClasses: string[] = [];
   constructor() { }
