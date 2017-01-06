@@ -25,10 +25,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com:baruchvlz/ng2-font-awesome.git"
+    "url": "git+ssh://git@github.com:baruchvlz/angular2-font-awesome.git"
   },
   "bugs": {
-    "url": "https://github.com/baruchvlz/ng2-font-awesome/issues"
+    "url": "https://github.com/baruchvlz/angular2-font-awesome/issues"
   },
   "peerDependencies": {
     "@angular/core": "^2.4.1",
