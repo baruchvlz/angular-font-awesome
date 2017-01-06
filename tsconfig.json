@@ -17,7 +17,7 @@
   },
   "files": [
     "index.ts",
-    "ng-font-awesome.ts",
+    "ng2-font-awesome.ts",
     "./src/font-awesome.directive.ts",
     "tests/font-awesome.directive.spec.ts",
     "./src/font-awesome.component.ts",
