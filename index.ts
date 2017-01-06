@@ -1,21 +1,21 @@
 import { NgModule, ModuleWithProviders } from "@angular/core";
 import { CommonModule } from '@angular/common';
-import { FontAwesomeDirective } from './src/font-awesome.directive';
+// import { FontAwesomeDirective } from './src/font-awesome.directive';
 import { FontAwesomeComponent } from './src/font-awesome.component';
 
 export * from './src/font-awesome.component';
-export * from './src/font-awesome.directive';
+// export * from './src/font-awesome.directive';
 
 @NgModule({
   imports: [
     CommonModule
   ],
   declarations:[
-    FontAwesomeDirective,
+    // FontAwesomeDirective,
     FontAwesomeComponent
   ],
   exports: [
-    FontAwesomeDirective,
+    // FontAwesomeDirective,
     FontAwesomeComponent
   ]
 })
