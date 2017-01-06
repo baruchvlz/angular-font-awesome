@@ -1,7 +1,7 @@
 import { Component, OnInit, Input, Optional } from '@angular/core';
 
 @Component({
-  selector: 'fa',
+  selector: 'fa, ng2-fa',
   template: `
     <i class="fa fa-{{name}}" [ngClass]="optionalClasses" aria-hidden="true"></i>
   `
@@ -11,7 +11,7 @@ export class FontAwesomeComponent implements OnInit {
   // Optional Inputs
   @Optional() @Input() title      : string;
   @Optional() @Input() size       : string;
-  @Optional() @Input() fixed      : boolean = false;
+  @Optional() @Input() fixed      : boolean;
   @Optional() @Input() animation  : string;
   @Optional() @Input() rotate     : string | number;
 
@@ -23,7 +23,7 @@ export class FontAwesomeComponent implements OnInit {
       this.addToOptionalClasses(`fa-${this.size}`);
     }
 
-    if(!this.fixed) {
+    if(this.fixed) {
       this.addToOptionalClasses(`fa-fw`);
     }
 
