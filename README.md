@@ -9,12 +9,12 @@ Simple, easy to use Angular 2 component to manage Font Awesome icons.
 **Import the module:**
 ```typescript
 //...
-import { FontAwesomeModule } from 'angular2-font-awesome/angular2-font-awesome';
+import { Angular2FontAwesomeModule } from 'angular2-font-awesome/angular2-font-awesome';
 @NgModule({
   //...
   imports: [
     //...
-    FontAwesomeModule
+    Angular2FontAwesomeModule
   ],
   //...
 })
