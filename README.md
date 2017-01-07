@@ -1,4 +1,4 @@
-# ng2-font-awesome
+# Angular2 Font Awesome
 Simple, easy to use Angular 2 component to manage Font Awesome icons.
 
 # How to install
