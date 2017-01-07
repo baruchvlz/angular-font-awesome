@@ -38,13 +38,13 @@ export class AppModule { }
 # Usage and Options
 To use the component you can choose between these 2 selectors: `<ng2-fa></ng2-fa>` or `<fa></fa>`.
 
-Name      | Type               | Options    | Required
+Name      | Type               | Options    | Optional
 ---       | ---                | ---        | ---
-name      | `String`           | [F-A Icons](http://fontawesome.io/icons/) | Yes
-size      | `String`           | `lg, 2x, 3x, 4x, 5x`
-fixed     | `Boolean`          | `true | false`
-animation |  `String`          | `spin | pulse`
-rotate    |  `Number | String` | `90 | 180 | 270` `horizontal | vertical`
+name      | `String`           | [F-A Icons](http://fontawesome.io/icons/) | No
+size      | `String`           | `lg, 2x, 3x, 4x, 5x`                      | Yes
+fixed     | `Boolean`          | `true | false`                            | Yes
+animation |  `String`          | `spin | pulse`                            | Yes
+rotate    |  `Number | String` | `90 | 180 | 270` `horizontal | vertical`  | Yes
 
 *Example Use*
 ```html
