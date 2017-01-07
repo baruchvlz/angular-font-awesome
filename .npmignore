@@ -1,17 +1,41 @@
+#################
 ## Misc
+#################
 **/.DS_Store
+nbproject
+manifest.mf
+build.xml
 node_modules/*
 npm-debug.log
-*.js
+src/*.js
+tests/*.js
+angular2-font-awesome.js
+index.js
+dist/
 !config/*
 !karma.conf.js
 !webpack.config.js
 *.map
 *.d.ts
+!make.js
+!examples/**/*.js
+coverage
+*.metadata.json
+bundles
 
+############
 ## Windows
+############
+
+# Windows image file caches
 Thumbs.db
+
+# Folder config file
 Desktop.ini
 
+############
 ## Mac
+############
+
+# Mac crap
 .DS_Store
