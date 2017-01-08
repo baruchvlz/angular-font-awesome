@@ -6,7 +6,7 @@
   "typings": "index.d.ts",
   "scripts": {
     "start": "",
-    "test": "karma start --singleRun=true",
+    "test": "echo \"Package test are ran inside 'demo'\" && exit 1",
     "test:dev": "karma start --singleRun=false --autoWatch=true"
   },
   "keywords": [
