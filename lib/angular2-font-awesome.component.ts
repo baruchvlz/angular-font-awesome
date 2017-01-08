@@ -5,9 +5,9 @@ import { Component, OnInit, Input } from '@angular/core';
   template: `
     <i class="fa fa-{{name}}" [ngClass]="optionalClasses" aria-hidden="true"></i>
   `,
-  // stylesUrl: [
-  //   '../node_modules/font-awesome/css/font-awesome.css'
-  // ]
+  stylesUrl: [
+    '../node_modules/font-awesome/css/font-awesome.css'
+  ]
 })
 export class Angular2FontAwesomeComponent implements OnInit {
   @Input() name        : string;
