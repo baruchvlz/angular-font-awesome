@@ -52,7 +52,7 @@ rotate    |  `Number | String` | `90 | 180 | 270` `horizontal | vertical`  | Yes
 ```
 
 # TODO
-- [ ] Create unit tests
+- [ ] Create [demo](https://github.com/baruchvlz/angular2-font-awesome/tree/demo)
 - [ ] Add `directive` option
 - [ ] Add [Stacked Icons](http://fontawesome.io/examples/#stacked) support
 - [ ] Add [List Icons](http://fontawesome.io/examples/#list) support
