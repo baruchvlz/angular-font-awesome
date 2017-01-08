@@ -3,7 +3,6 @@ import { Component, OnInit, Input } from '@angular/core';
 @Component({
   selector: 'fa, ng2-fa',
   template: `
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <i class="fa fa-{{name}}" [ngClass]="optionalClasses" aria-hidden="true"></i>
   `
 })
