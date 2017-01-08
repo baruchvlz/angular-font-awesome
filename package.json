@@ -3,6 +3,7 @@
   "version": "1.0.0-alpha.1-4",
   "description": "",
   "main": "index.js",
+  "typings": "index.d.ts",
   "scripts": {
     "start": "",
     "test": "karma start --singleRun=true",

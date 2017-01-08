@@ -4,7 +4,10 @@ import { Component, OnInit, Input } from '@angular/core';
   selector: 'fa, ng2-fa',
   template: `
     <i class="fa fa-{{name}}" [ngClass]="optionalClasses" aria-hidden="true"></i>
-  `
+  `,
+  // stylesUrl: [
+  //   '../node_modules/font-awesome/css/font-awesome.css'
+  // ]
 })
 export class Angular2FontAwesomeComponent implements OnInit {
   @Input() name        : string;
@@ -35,14 +38,9 @@ export class Angular2FontAwesomeComponent implements OnInit {
     }
 
     if(this.rotate){
-      switch(typeof this.rotate){
-        case 'number':
-          this.addToOptionalClasses(`fa-rotate-${this.rotate}`);
-          break;
-        case 'string':
-          this.addToOptionalClasses(`fa-flip-${this.rotate}`);
-          break;
-      }
+      let rotateClass = (typeof this.rotate === 'number') ? `fa-rotate-${this.rotate}`
+                                                          : `fa-flip-${this.rotate}`;
+      this.addToOptionalClasses(rotateClass);
     }
 
   }

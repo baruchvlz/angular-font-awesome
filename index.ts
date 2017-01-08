@@ -1,10 +1,7 @@
-import { NgModule, ModuleWithProviders } from "@angular/core";
+import { NgModule } from "@angular/core";
 import { CommonModule } from '@angular/common';
 
-import { Angular2FontAwesomeComponent } from './src/angular2-font-awesome.component';
-
-export * from './src/angular2-font-awesome.component';
-
+import { Angular2FontAwesomeComponent } from './lib/angular2-font-awesome.component';
 
 @NgModule({
   imports: [
@@ -17,11 +14,6 @@ export * from './src/angular2-font-awesome.component';
     Angular2FontAwesomeComponent
   ]
 })
-export class Angular2FontAwesomeModule {
-  static forRoot(): ModuleWithProviders {
-    return {
-      ngModule: Angular2FontAwesomeModule,
-      providers: []
-    }
-  }
-}
+export class Angular2FontAwesomeModule { }
+
+export * from './lib/angular2-font-awesome.component';

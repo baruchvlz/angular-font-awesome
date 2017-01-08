@@ -18,8 +18,7 @@
   "files": [
     "index.ts",
     "angular2-font-awesome.ts",
-    "src/angular2-font-awesome.component.ts",
-    "tests/angular2-font-awesome.component.spec.ts"
+    "lib/angular2-font-awesome.component.ts",
   ],
   "exclude": [
     "node_modules",
