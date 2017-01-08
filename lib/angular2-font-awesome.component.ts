@@ -35,14 +35,9 @@ export class Angular2FontAwesomeComponent implements OnInit {
     }
 
     if(this.rotate){
-      switch(typeof this.rotate){
-        case 'number':
-          this.addToOptionalClasses(`fa-rotate-${this.rotate}`);
-          break;
-        case 'string':
-          this.addToOptionalClasses(`fa-flip-${this.rotate}`);
-          break;
-      }
+      let rotateClass = (typeof this.rotate === 'number') ? `fa-rotate-${this.rotate}`
+                                                          : `fa-flip-${this.rotate}`;
+      this.addToOptionalClasses(rotateClass);
     }
 
   }

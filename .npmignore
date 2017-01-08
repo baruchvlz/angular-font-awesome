@@ -24,6 +24,11 @@ coverage
 bundles
 
 ############
+## No need or demo folder to be part of NPM
+############
+demo/
+
+############
 ## Windows
 ############
 
