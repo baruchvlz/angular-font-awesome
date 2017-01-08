@@ -5,7 +5,7 @@ import { Component, OnInit, Input } from '@angular/core';
   template: `
     <i class="fa fa-{{name}}" [ngClass]="optionalClasses" aria-hidden="true"></i>
   `,
-  stylesUrl: [
+  styleUrl: [
     '../node_modules/font-awesome/css/font-awesome.css'
   ]
 })
