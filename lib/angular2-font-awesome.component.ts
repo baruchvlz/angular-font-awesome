@@ -14,6 +14,7 @@ export class Angular2FontAwesomeComponent implements OnInit {
   @Input() fixed      ?: boolean;
   @Input() animation  ?: string;
   @Input() rotate     ?: string | number;
+  @Input() inverse    ?: boolean;
 
   private optionalClasses: string[] = [];
   constructor() { }
@@ -38,6 +39,10 @@ export class Angular2FontAwesomeComponent implements OnInit {
       let rotateClass = (typeof this.rotate === 'number') ? `fa-rotate-${this.rotate}`
                                                           : `fa-flip-${this.rotate}`;
       this.addToOptionalClasses(rotateClass);
+    }
+
+    if(this.inverse) {
+      this.addToOptionalClasses(`fa-inverse`);
     }
 
   }
