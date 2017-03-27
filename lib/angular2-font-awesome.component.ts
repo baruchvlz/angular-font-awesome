@@ -16,7 +16,7 @@ export class Angular2FontAwesomeComponent implements OnInit {
   @Input() rotate     ?: string | number;
   @Input() inverse    ?: boolean;
 
-  private optionalClasses: string[] = [];
+  private _optionalClasses: string[] = [];
   constructor() { }
 
   ngOnInit() {
@@ -46,9 +46,13 @@ export class Angular2FontAwesomeComponent implements OnInit {
     }
 
   }
+  
+  get optionalClasses() {
+    return this._optionalClasses;
+  }
 
   private addToOptionalClasses(addClass: string): void {
-    this.optionalClasses.push(addClass);
+    this._optionalClasses.push(addClass);
   }
 
 }
