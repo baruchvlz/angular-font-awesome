@@ -1,20 +1,20 @@
 # Angular2 Font Awesome
-Simple, easy to use Angular 2 component to manage Font Awesome icons.
+Simple, easy to use Angular 2 & 4 component to manage Font Awesome icons.
 
 # How to install
 
 **Install Packages**
-`npm install --save font-awesome angular2-font-awesome`
+`npm install --save font-awesome angular-font-awesome`
 
 **Import the module:**
 ```typescript
 //...
-import { Angular2FontAwesomeModule } from 'angular2-font-awesome/angular2-font-awesome';
+import { AngularFontAwesomeModule } from 'angular-font-awesome/angular-font-awesome';
 @NgModule({
   //...
   imports: [
     //...
-    Angular2FontAwesomeModule
+    AngularFontAwesomeModule
   ],
   //...
 })
@@ -36,7 +36,7 @@ export class AppModule { }
 ```
 
 # Usage and Options
-To use the component you can choose between these 2 selectors: `<ng2-fa></ng2-fa>` or `<fa></fa>`.
+To use the component you can choose between these 2 selectors: `<ng2-fa></ng2-fa>`, `<fa></fa>`, `<ng4-fa><ng4-fa>`, or `<ng-fa><ng-fa>`.
 
 Name      | Type               | Options                                   | Optional
 ---       | ---                | ---                                       | ---
@@ -53,7 +53,7 @@ inverse   |  `Boolean`         | `true | false`                            | Yes
 ```
 
 # TODO
-- [x] Create basic [demo](https://github.com/baruchvlz/angular2-font-awesome/tree/new-demo)
+- [x] Create basic [demo](https://github.com/baruchvlz/angular-font-awesome/tree/new-demo)
 - [ ] Add `directive` option
 - [ ] Add [Stacked Icons](http://fontawesome.io/examples/#stacked) support
 - [ ] Add [List Icons](http://fontawesome.io/examples/#list) support

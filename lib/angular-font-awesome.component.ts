@@ -1,12 +1,12 @@
 import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
-  selector: 'fa, ng2-fa',
+  selector: 'fa, ng2-fa, ng4-fa, ng-fa',
   template: `
     <i class="fa fa-{{name}}" [ngClass]="optionalClasses" aria-hidden="true"></i>
   `
 })
-export class Angular2FontAwesomeComponent implements OnInit {
+export class AngularFontAwesomeComponent implements OnInit {
   @Input() name        : string;
   // Optional Inputs
   @Input() title      ?: string;
@@ -23,6 +23,7 @@ export class Angular2FontAwesomeComponent implements OnInit {
     if(!this.name){
       throw new Error('Missing "name" property for Angular2 Font Awesome component');
     }
+
     if(this.size) {
       this.addToOptionalClasses(`fa-${this.size}`);
     }
@@ -46,7 +47,7 @@ export class Angular2FontAwesomeComponent implements OnInit {
     }
 
   }
-  
+
   get optionalClasses() {
     return this._optionalClasses;
   }

@@ -1,6 +1,6 @@
 {
-  "name": "angular2-font-awesome",
-  "version": "1.1.0",
+  "name": "angular-font-awesome",
+  "version": "2.0.0",
   "description": "",
   "main": "index.ts",
   "typings": "index.d.ts",
@@ -10,6 +10,8 @@
     "test:dev": "karma start --singleRun=false --autoWatch=true"
   },
   "keywords": [
+    "ng4-font-awesome",
+    "ng4-fontawesome",
     "ng2-fontawesome",
     "ng2-font-awesome",
     "ng-font-awesome",
@@ -21,7 +23,11 @@
     "angular2",
     "ng",
     "ng2",
-    "angular2-font-awesome"
+    "angular2-font-awesome",
+    "angular-font-awesome",
+    "angular4-font-awesome",
+    "angular4 font awesome",
+    "angular font awesome"
   ],
   "author": "Baruch Velez <baruchvelez@gmail.com>",
   "license": "MIT",
@@ -33,24 +39,24 @@
     "url": "https://github.com/baruchvlz/angular2-font-awesome/issues"
   },
   "peerDependencies": {
-    "@angular/core": "^2.4.2",
-    "font-awesome": "4.7.0"
+    "@angular/core": "^2.4.2 || ^4.0.1",
+    "font-awesome": "^4.7.0"
   },
   "dependencies": {
     "font-awesome": "^4.7.0"
   },
   "devDependencies": {
-    "@angular/common": "2.4.2",
-    "@angular/compiler": "2.4.2",
-    "@angular/compiler-cli": "2.4.2",
-    "@angular/core": "2.4.2",
-    "@angular/http": "2.4.2",
-    "@angular/platform-browser": "2.4.2",
-    "@angular/platform-browser-dynamic": "2.4.2",
-    "@angular/platform-server": "2.4.2",
+    "@angular/common": "^2.4.2 || ^4.0.1",
+    "@angular/compiler": "^2.4.2 || ^4.0.1",
+    "@angular/compiler-cli": "^2.4.2 || ^4.0.1",
+    "@angular/core": "^2.4.2 || ^4.0.1",
+    "@angular/http": "^2.4.2 || ^4.0.1",
+    "@angular/platform-browser": "^2.4.2 || ^4.0.1",
+    "@angular/platform-browser-dynamic": "^2.4.2 || ^4.0.1",
+    "@angular/platform-server": "^2.4.2 || ^4.0.1",
     "@types/hammerjs": "2.0.33",
-    "@types/jasmine": "2.5.38",
-    "@types/node": "6.0.52",
+    "@types/jasmine": "2.5.45",
+    "@types/node": "6.0.60",
     "awesome-typescript-loader": "3.0.0-beta.17",
     "codelyzer": "2.0.0-beta.3",
     "commitizen": "2.9.2",
