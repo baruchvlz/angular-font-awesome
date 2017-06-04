@@ -39,8 +39,8 @@
     "url": "https://github.com/baruchvlz/angular2-font-awesome/issues"
   },
   "peerDependencies": {
-    "@angular/core": "^4.0.0",
-    "font-awesome": "4.7.0"
+    "@angular/core": "^2.4.2 || ^4.0.1",
+    "font-awesome": "^4.7.0"
   },
   "dependencies": {
     "font-awesome": "^4.7.0"
