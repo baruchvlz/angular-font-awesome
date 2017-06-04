@@ -1,6 +1,6 @@
 {
   "name": "angular-font-awesome",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "",
   "main": "index.ts",
   "typings": "index.d.ts",
@@ -33,7 +33,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com:baruchvlz/angular2-font-awesome.git"
+    "url": "git+ssh://git@github.com:baruchvlz/angular-font-awesome.git"
   },
   "bugs": {
     "url": "https://github.com/baruchvlz/angular2-font-awesome/issues"
