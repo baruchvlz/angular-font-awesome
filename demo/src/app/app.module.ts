@@ -5,7 +5,7 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 
-import { Angular2FontAwesomeModule } from 'angular2-font-awesome/angular2-font-awesome';
+import { AngularFontAwesomeModule } from 'angular-font-awesome/angular-font-awesome';
 
 @NgModule({
   declarations: [
@@ -15,7 +15,7 @@ import { Angular2FontAwesomeModule } from 'angular2-font-awesome/angular2-font-a
     BrowserModule,
     FormsModule,
     HttpModule,
-    Angular2FontAwesomeModule
+    AngularFontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
