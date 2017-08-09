@@ -1,5 +1,6 @@
 const webpack = require('webpack');
 const path = require('path');
+const { CheckerPlugin } = require('awesome-typescript-loader');
 
 module.exports = {
   entry: './index.ts',
@@ -10,12 +11,16 @@ module.exports = {
   },
 
   resolve: { 
-    extensions: ['.ts', '.tsx', '.js'], 
+    extensions: ['.ts', '.js'], 
   },
 
   module: {
     loaders: [
-      { test: /\.tsx?$/, loader: 'ts-loader' },
+      { test: /\.ts$/, loader: 'awesome-typescript-loader' },
     ],
   },
+
+  plugins: [
+    new CheckerPlugin(),
+  ]
 };
