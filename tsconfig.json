@@ -13,12 +13,12 @@
       "jasmine",
       "node"
     ],
-    "lib": ["es2015", "dom"]
+    "lib": ["es2015", "dom"],
+    "sourceMap": true
   },
   "files": [
     "index.ts",
-    "angular2-font-awesome.ts",
-    "lib/angular2-font-awesome.component.ts",
+    "angular-font-awesome.ts"
   ],
   "exclude": [
     "node_modules",

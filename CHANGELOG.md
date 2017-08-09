@@ -6,3 +6,9 @@
 * Updated library to support Angular 4 and Angular 2 as suggested ([here](https://github.com/baruchvlz/angular-font-awesome/issues/7))
 * Changed repository's name to match package's name
   
+# [2.1.1] (2017-08-09)
+
+* Updated dependencies to 4.3.3
+* Added empty `tsconfig.json` file to avoid issues with Angular CLI Lint
+* Added webpack config to create an index.js to be used as a main entry for the package
+* Added yarn

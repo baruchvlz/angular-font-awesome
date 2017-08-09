@@ -9,7 +9,7 @@ node_modules/*
 npm-debug.log
 src/*.js
 tests/*.js
-angular2-font-awesome.js
+angular-font-awesome.js
 index.js
 dist/
 !config/*
