@@ -12,8 +12,9 @@
 * Added empty `tslint.json` file to avoid issues with Angular CLI Lint
 * Added webpack config to create an index.js to be used as a main entry for the package
 * Added yarn
+* Removed outdated demo page
 
-# [2.1.1] (2017-08-10)
+# [2.1.2] (2017-08-10)
 
 * Fixed some typos
 * Change webpack TypeScript loader
