@@ -9,6 +9,12 @@
 # [2.1.1] (2017-08-09)
 
 * Updated dependencies to 4.3.3
-* Added empty `tsconfig.json` file to avoid issues with Angular CLI Lint
+* Added empty `tslint.json` file to avoid issues with Angular CLI Lint
 * Added webpack config to create an index.js to be used as a main entry for the package
 * Added yarn
+
+# [2.1.1] (2017-08-10)
+
+* Fixed some typos
+* Change webpack TypeScript loader
+* Updated dependencies
