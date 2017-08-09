@@ -12,3 +12,4 @@
 * Added empty `tsconfig.json` file to avoid issues with Angular CLI Lint
 * Added webpack config to create an index.js to be used as a main entry for the package
 * Added yarn
+* Removed outdated demo page
