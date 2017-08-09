@@ -36,7 +36,7 @@ export class AppModule { }
 ```
 
 # Usage and Options
-To use the component you can choose between these 2 selectors: `<ng2-fa></ng2-fa>`, `<fa></fa>`, `<ng4-fa><ng4-fa>`, or `<ng-fa><ng-fa>`.
+To use the component you can choose between these selectors: `<ng2-fa></ng2-fa>`, `<fa></fa>`, `<ng4-fa><ng4-fa>`, or `<ng-fa><ng-fa>`.
 
 Name      | Type               | Options                                   | Optional
 ---       | ---                | ---                                       | ---
