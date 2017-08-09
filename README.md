@@ -51,9 +51,3 @@ inverse   |  `Boolean`         | `true / false`                            | Yes
 ```html
 <fa name="cog" animation="spin"></fa>
 ```
-
-# TODO
-- [x] Create basic [demo](https://github.com/baruchvlz/angular-font-awesome/tree/new-demo)
-- [ ] Add `directive` option
-- [ ] Add [Stacked Icons](http://fontawesome.io/examples/#stacked) support
-- [ ] Add [List Icons](http://fontawesome.io/examples/#list) support
