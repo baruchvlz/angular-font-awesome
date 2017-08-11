@@ -3,6 +3,8 @@
 #################
 **/.DS_Store
 node_modules/
+demo/
+.vscode/
 
 ############
 ## Windows

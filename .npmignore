@@ -2,31 +2,9 @@
 ## Misc
 #################
 **/.DS_Store
-nbproject
-manifest.mf
-build.xml
-node_modules/*
-npm-debug.log
-src/*.js
-tests/*.js
-angular-font-awesome.js
-index.js
-dist/
-!config/*
-!karma.conf.js
-!webpack.config.js
-*.map
-*.d.ts
-!make.js
-!examples/**/*.js
-coverage
-*.metadata.json
-bundles
-
-############
-## No need or demo folder to be part of NPM
-############
+node_modules/
 demo/
+.vscode/
 
 ############
 ## Windows
@@ -44,3 +22,8 @@ Desktop.ini
 
 # Mac crap
 .DS_Store
+
+##############
+## TypeScript
+##############
+*.d.ts
