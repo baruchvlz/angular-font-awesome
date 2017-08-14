@@ -1,6 +1,6 @@
 {
   "name": "angular-font-awesome",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "Compact FontAwesome library ready to be used with Angular 2 & 4. Formerly known as angular2-font-awesome",
   "main": "index.ts",
   "typings": "index.d.ts",
