@@ -20,7 +20,7 @@ dist/
 coverage
 *.metadata.json
 bundles
-
+*.js
 ############
 ## Windows
 ############
