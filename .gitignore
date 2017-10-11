@@ -9,8 +9,6 @@ node_modules/*
 npm-debug.log
 src/*.js
 tests/*.js
-angular2-font-awesome.js
-index.js
 dist/
 !config/*
 !karma.conf.js
@@ -22,7 +20,7 @@ dist/
 coverage
 *.metadata.json
 bundles
-
+*.js
 ############
 ## Windows
 ############
@@ -39,3 +37,9 @@ Desktop.ini
 
 # Mac crap
 .DS_Store
+
+###
+## Git Only Ignores
+###
+lib/angular-font-awesome.component.js
+index.js
