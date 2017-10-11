@@ -17,12 +17,11 @@
   },
   "files": [
     "index.ts",
-    "angular2-font-awesome.ts",
-    "lib/angular2-font-awesome.component.ts",
+    "angular-font-awesome.ts",
+    "lib/angular-font-awesome.component.ts"
   ],
   "exclude": [
-    "node_modules",
-    "bundles"
+    "node_modules"
   ],
   "angularCompilerOptions": {
     "strictMetadataEmit": true,
