@@ -5,7 +5,7 @@
   "main": "index.ts",
   "typings": "index.d.ts",
   "scripts": {
-    "start": "",
+    "start": "tsc",
     "test": "echo \"Package test are ran inside 'demo'\" && exit 1",
     "test:dev": "karma start --singleRun=false --autoWatch=true"
   },
