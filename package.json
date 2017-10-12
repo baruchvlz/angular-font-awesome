@@ -1,12 +1,13 @@
 {
   "name": "angular-font-awesome",
-  "version": "2.0.5",
+  "version": "2.3.4",
   "description": "Compact FontAwesome library ready to be used with Angular 2 & 4. Formerly known as angular2-font-awesome",
   "main": "index.ts",
   "typings": "index.d.ts",
   "scripts": {
     "start": "tsc",
-    "test": "echo \"Package test are ran inside 'demo'\" && exit 1"
+    "test": "echo \"Package test are ran inside 'demo'\" && exit 1",
+    "postinstall": "npm run start"
   },
   "keywords": [
     "ng4-font-awesome",
@@ -42,8 +43,9 @@
     "font-awesome": "^4.7.0"
   },
   "dependencies": {
-    "@types/rx": "^4.1.1",
-    "font-awesome": "^4.7.0"
+    "font-awesome": "^4.7.0",
+    "@types/hammerjs": "2.0.33",
+    "@types/rx": "^4.1.1"
   },
   "devDependencies": {
     "@angular/common": "^2.4.2 || ^4.0.1",
@@ -54,7 +56,6 @@
     "@angular/platform-browser": "^2.4.2 || ^4.0.1",
     "@angular/platform-browser-dynamic": "^2.4.2 || ^4.0.1",
     "@angular/platform-server": "^2.4.2 || ^4.0.1",
-    "@types/hammerjs": "2.0.33",
     "@types/jasmine": "2.5.45",
     "@types/node": "6.0.60",
     "awesome-typescript-loader": "3.0.0-beta.17",

@@ -40,3 +40,6 @@ Desktop.ini
 
 # Mac crap
 .DS_Store
+*.js
+*.d.ts
+*.js.map
