@@ -10,6 +10,7 @@
 
 * Added generated files to the npm package for libraries that require `.js` files and/or can't use `.ts`
 
-# [2.0.5] (2017-08-12)
+# [2.3.4] (2017-08-12)
 
-* Add `.map` files to NPM package
+* Add postinstall script instead of having the generated files added to the package
+* Updated package JSON
