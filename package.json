@@ -45,7 +45,9 @@
   "dependencies": {
     "font-awesome": "^4.7.0",
     "@types/hammerjs": "2.0.33",
-    "@types/rx": "^4.1.1"
+    "@types/rx": "^4.1.1",
+    "@types/jasmine": "2.5.45",
+    "@types/node": "6.0.60"
   },
   "devDependencies": {
     "@angular/common": "^2.4.2 || ^4.0.1",
@@ -56,8 +58,6 @@
     "@angular/platform-browser": "^2.4.2 || ^4.0.1",
     "@angular/platform-browser-dynamic": "^2.4.2 || ^4.0.1",
     "@angular/platform-server": "^2.4.2 || ^4.0.1",
-    "@types/jasmine": "2.5.45",
-    "@types/node": "6.0.60",
     "awesome-typescript-loader": "3.0.0-beta.17",
     "codelyzer": "2.0.0-beta.3",
     "commitizen": "2.9.2",
