@@ -6,12 +6,14 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "declaration": true,
+    "sourceMap": true,
     "moduleResolution": "node",
     "noUnusedLocals": true,
     "types": [
       "hammerjs",
       "jasmine",
-      "node"
+      "node",
+      "rx"
     ],
     "lib": ["es2015", "dom"]
   },

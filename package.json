@@ -1,14 +1,12 @@
 {
   "name": "angular-font-awesome",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "description": "Compact FontAwesome library ready to be used with Angular 2 & 4. Formerly known as angular2-font-awesome",
   "main": "index.ts",
   "typings": "index.d.ts",
   "scripts": {
     "start": "tsc",
-    "test": "echo \"Package test are ran inside 'demo'\" && exit 1",
-    "test:dev": "karma start --singleRun=false --autoWatch=true",
-    "prepublish": "npm run start"
+    "test": "echo \"Package test are ran inside 'demo'\" && exit 1"
   },
   "keywords": [
     "ng4-font-awesome",
@@ -44,6 +42,7 @@
     "font-awesome": "^4.7.0"
   },
   "dependencies": {
+    "@types/rx": "^4.1.1",
     "font-awesome": "^4.7.0"
   },
   "devDependencies": {
@@ -65,23 +64,15 @@
     "cz-conventional-changelog": "1.2.0",
     "istanbul-instrumenter-loader": "0.2.0",
     "jasmine-core": "2.5.2",
-    "karma": "1.3.0",
-    "karma-chrome-launcher": "2.0.0",
-    "karma-coverage": "1.1.1",
-    "karma-jasmine": "1.0.2",
-    "karma-mocha-reporter": "^2.1.0",
-    "karma-remap-coverage": "0.1.2",
-    "karma-sourcemap-loader": "0.3.7",
-    "karma-webpack": "1.8.0",
     "loader-utils": "0.2.16",
     "reflect-metadata": "0.1.8",
-    "rxjs": "5.0.0-rc.4",
+    "rxjs": "^5.4",
     "semantic-release": "6.3.2",
     "source-map-loader": "0.1.5",
     "ts-helpers": "1.1.2",
     "tslint": "4.0.2",
     "tslint-loader": "3.3.0",
-    "typescript": "2.0.10",
+    "typescript": "^2.4",
     "webpack": "2.1.0-beta.27",
     "zone.js": "0.7.2"
   }
