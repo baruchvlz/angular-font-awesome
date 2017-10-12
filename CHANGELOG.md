@@ -5,7 +5,11 @@
 
 * Updated library to support Angular 4 and Angular 2 as suggested ([here](https://github.com/baruchvlz/angular-font-awesome/issues/7))
 * Changed repository's name to match package's name
-  
+
 # [2.0.4] (2017-08-11)
 
 * Added generated files to the npm package for libraries that require `.js` files and/or can't use `.ts`
+
+# [2.0.5] (2017-08-12)
+
+* Add `.map` files to NPM package
