@@ -14,3 +14,8 @@
 
 * Add postinstall script instead of having the generated files added to the package
 * Updated package JSON
+
+# [2.3.5] (2017-08-15)
+
+* Remove postinstall script to avoid having typescript in production
+* Added `tsc` generated files to npm package
