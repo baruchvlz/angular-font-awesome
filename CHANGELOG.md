@@ -19,3 +19,7 @@
 
 * Remove postinstall script to avoid having typescript in production
 * Added `tsc` generated files to npm package
+
+# [2.3.7] (2017-08-15)
+
+* Actually removed `postinstall` script from `package.json`
