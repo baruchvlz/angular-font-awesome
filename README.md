@@ -1,5 +1,5 @@
 # Angular Font Awesome
-Simple, easy to use Angular 2 & 4 component to manage Font Awesome icons.
+Simple, easy to use [Angular](https://angular.io) component to manage Font Awesome icons.
 
 # How to install
 
