@@ -1,13 +1,12 @@
 {
   "name": "angular-font-awesome",
-  "version": "2.3.6",
+  "version": "2.3.7",
   "description": "Compact FontAwesome library ready to be used with Angular 2 & 4. Formerly known as angular2-font-awesome",
   "main": "index.ts",
   "typings": "index.d.ts",
   "scripts": {
     "start": "tsc",
-    "test": "echo \"Package test are ran inside 'demo'\" && exit 1",
-    "postinstall": "npm run start"
+    "test": "echo \"Package test are ran inside 'demo'\" && exit 1"
   },
   "keywords": [
     "ng4-font-awesome",
