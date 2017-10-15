@@ -10,6 +10,10 @@
 
 * Added generated files to the npm package for libraries that require `.js` files and/or can't use `.ts`
 
+# [2.2.x] 
+
+* 2.2 had a lot of issues with Ionic and non-cli generated projects where the tsc generated files where needed. Skipped to 2.3 with fixes.
+
 # [2.3.4] (2017-08-12)
 
 * Add postinstall script instead of having the generated files added to the package
