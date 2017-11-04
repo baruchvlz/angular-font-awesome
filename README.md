@@ -1,6 +1,8 @@
 # Angular Font Awesome
 Simple, easy to use [Angular](https://angular.io) component to manage Font Awesome icons.
 
+Built with [Angular QuickStart Lib](https://github.com/filipesilva/angular-quickstart-lib).
+
 # How to install
 
 **Install Packages**
@@ -53,5 +55,7 @@ inverse   |  `Boolean`         | `true | false`                            | Yes
 ```
 
 # TODO
-- [ ] Add [Stacked Icons](http://fontawesome.io/examples/#stacked) support
-- [ ] Add [List Icons](http://fontawesome.io/examples/#list) support
+- Add [Stacked Icons](http://fontawesome.io/examples/#stacked) support
+- Add [List Icons](http://fontawesome.io/examples/#list) support
+- Tests
+- Demo page
