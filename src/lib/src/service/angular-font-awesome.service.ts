@@ -1,7 +1,6 @@
 import { Injectable } from '@angular/core';
 
 @Injectable()
-export class LibService {
+export class AngularFontAwesomeService {
   constructor() { }
-  getMeaning() { return 42; }
 }

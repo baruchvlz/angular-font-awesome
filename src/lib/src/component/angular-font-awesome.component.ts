@@ -2,10 +2,10 @@ import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'fa',
-  templateUrl: './lib.component.html',
-  styleUrls: ['./lib.component.css']
+  templateUrl: './angular-font-awesome.component.html',
+  styleUrls: ['./angular-font-awesome.component.css']
 })
-export class LibComponent implements OnInit {
+export class AngularFontAwesomeComponent implements OnInit {
   @Input() name        : string;
   // Optional Inputs
   @Input() title      ?: string;

@@ -1,6 +1,6 @@
 {
   "name": "angular-font-awesome",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Compact FontAwesome library ready to be used with Angular 2 & 4. Formerly known as angular2-font-awesome",
   "main": "./dist/bundles/angular-font-awesome.umd.js",
   "module": "./dist/angular-font-awesome.es5.js",
@@ -63,9 +63,7 @@
     "release": "standard-version"
   },
   "peerDependencies": {
-    "@angular/core": ">=4.0.0 <5.0.0 || >=4.0.0-beta <5.0.0"
-  },
-  "dependencies": {
+    "@angular/core": ">=4.0.0 <5.0.0 || >=4.0.0-beta <5.0.0",
     "font-awesome": "^4.7.0"
   },
   "devDependencies": {

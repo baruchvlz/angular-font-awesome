@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { LibService } from 'angular-font-awesome';
+import { AngularFontAwesomeService } from 'angular-font-awesome';
 
 @Component({
   selector: 'demo-app',
@@ -7,7 +7,7 @@ import { LibService } from 'angular-font-awesome';
 })
 export class AppComponent {
   meaning: number;
-  constructor(libService: LibService) {
-    this.meaning = libService.getMeaning();
+  constructor(AngularFontAwesomeService: AngularFontAwesomeService) {
+    this.meaning = AngularFontAwesomeService.getMeaning();
   }
 }

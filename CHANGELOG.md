@@ -1,4 +1,12 @@
-# [3.0.0] (2017-11-04)
+# [3.0.1] (2017-11-06)
+
+* Fix module and component name.
+* Rename library files.
+* Remove `font-awesome` as a dependency of the library move it to peer dependency.
+* Added `.npmignore` file.
+* Added `package-lock.json` file.
+
+# [3.0.0] (2017-11-05)
 
 After the release of Angular version 5 the library was giving an [error](https://github.com/baruchvlz/angular-font-awesome/issues/25) with the compiler, this lead
 me into having to rethink the whole development structure of the library.
