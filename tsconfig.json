@@ -1,32 +1,19 @@
 {
   "compilerOptions": {
-    "noImplicitAny": true,
-    "module": "es2015",
     "target": "es5",
-    "emitDecoratorMetadata": true,
-    "experimentalDecorators": true,
-    "declaration": true,
-    "sourceMap": true,
+    "module": "es2015",
     "moduleResolution": "node",
-    "noUnusedLocals": true,
-    "types": [
-      "hammerjs",
-      "jasmine",
-      "node",
-      "rx"
-    ],
-    "lib": ["es2015", "dom"]
-  },
-  "files": [
-    "index.ts",
-    "angular-font-awesome.ts",
-    "lib/angular-font-awesome.component.ts"
-  ],
-  "exclude": [
-    "node_modules"
-  ],
-  "angularCompilerOptions": {
-    "strictMetadataEmit": true,
-    "skipTemplateCodegen": true
+    "sourceMap": true,
+    "inlineSources": true,
+    "declaration": true,
+    "experimentalDecorators": true,
+    "noImplicitAny": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "skipLibCheck": true,
+    "stripInternal": true,
+    "lib": [
+      "es2015",
+      "dom"
+    ]
   }
 }

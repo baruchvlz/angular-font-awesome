@@ -1,45 +1,14 @@
-#################
-## Misc
-#################
-**/.DS_Store
-nbproject
-manifest.mf
-build.xml
-node_modules/*
-npm-debug.log
-src/*.js
-tests/*.js
+.DS_STORE
 dist/
-!config/*
-!karma.conf.js
-!webpack.config.js
-*.map
-*.d.ts
-!make.js
-!examples/**/*.js
+node_modules/
+out-tsc/
+debug.log
+npm-debug.log
+src/**/*.js
+!src/demo/systemjs.config.js
+!src/demo/systemjs.config.lib.js
+!**/*systemjs-angular-loader.js
+*.js.map
+e2e/**/*.js
+e2e/**/*.js.map
 coverage
-*.metadata.json
-bundles
-*.js
-############
-## Windows
-############
-
-# Windows image file caches
-Thumbs.db
-
-# Folder config file
-Desktop.ini
-
-############
-## Mac
-############
-
-# Mac crap
-.DS_Store
-
-###
-## Git Only Ignores
-###
-lib/angular-font-awesome.component.js
-index.js

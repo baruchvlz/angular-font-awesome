@@ -1,6 +1,8 @@
 # Angular Font Awesome
 Simple, easy to use [Angular](https://angular.io) component to manage Font Awesome icons.
 
+Built with [Angular QuickStart Lib](https://github.com/filipesilva/angular-quickstart-lib).
+
 # How to install
 
 **Install Packages**
@@ -9,7 +11,7 @@ Simple, easy to use [Angular](https://angular.io) component to manage Font Aweso
 **Import the module:**
 ```typescript
 //...
-import { AngularFontAwesomeModule } from 'angular-font-awesome/angular-font-awesome';
+import { AngularFontAwesomeModule } from 'angular-font-awesome';
 @NgModule({
   //...
   imports: [
@@ -35,8 +37,7 @@ export class AppModule { }
 <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
 ```
 
-# Usage and Options
-To use the component you can choose between these selectors: `<ng2-fa></ng2-fa>`, `<fa></fa>`, `<ng4-fa><ng4-fa>`, or `<ng-fa><ng-fa>`.
+# Usage and
 
 Name      | Type               | Options                                   | Optional
 ---       | ---                | ---                                       | ---
@@ -53,5 +54,7 @@ inverse   |  `Boolean`         | `true | false`                            | Yes
 ```
 
 # TODO
-- [ ] Add [Stacked Icons](http://fontawesome.io/examples/#stacked) support
-- [ ] Add [List Icons](http://fontawesome.io/examples/#list) support
+- Add [Stacked Icons](http://fontawesome.io/examples/#stacked) support
+- Add [List Icons](http://fontawesome.io/examples/#list) support
+- Tests
+- Demo page
