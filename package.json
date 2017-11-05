@@ -2,6 +2,10 @@
   "name": "angular-font-awesome",
   "version": "3.0.0",
   "description": "Compact FontAwesome library ready to be used with Angular 2 & 4. Formerly known as angular2-font-awesome",
+  "main": "./dist/bundles/angular-font-awesome.umd.js",
+  "module": "./dist/angular-font-awesome.es5.js",
+  "es2015": "./dist/angular-font-awesome.js",
+  "typings": "./dist/angular-font-awesome.d.ts",
   "keywords": [
     "ng4-font-awesome",
     "ng4-fontawesome",
@@ -56,8 +60,7 @@
     "integration:jit": "cd integration && npm run e2e",
     "integration:aot": "cd integration && npm run e2e:aot",
     "lint": "tslint ./src/**/*.ts -t verbose",
-    "release": "standard-version",
-    "postinstall": "rimraf node_modules/"
+    "release": "standard-version"
   },
   "peerDependencies": {
     "@angular/core": ">=4.0.0 <5.0.0 || >=4.0.0-beta <5.0.0"

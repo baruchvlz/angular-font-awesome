@@ -7,6 +7,25 @@ me into having to rethink the whole development structure of the library.
 * Reduced the amount of possible tags to just one (1) `<fa></fa>`
 * Better development structure
 
+**Breaking Change**
+The module for import has changed from `angular-font-awesome/angular-font-awesome` to `angular-font-awesome`.
+
+Example
+```typescript
+// ...
+import { AngularFontAwesomeModule } from 'angular-font-awesome';
+@NgModule({
+  //...
+  imports: [
+    //...
+    AngularFontAwesomeModule
+  ],
+  //...
+})
+export class AppModule { }
+})
+```
+
 
 # [2.3.7] (2017-08-15)
 

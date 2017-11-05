@@ -11,7 +11,7 @@ Built with [Angular QuickStart Lib](https://github.com/filipesilva/angular-quick
 **Import the module:**
 ```typescript
 //...
-import { AngularFontAwesomeModule } from 'angular-font-awesome/angular-font-awesome';
+import { AngularFontAwesomeModule } from 'angular-font-awesome';
 @NgModule({
   //...
   imports: [
@@ -37,8 +37,7 @@ export class AppModule { }
 <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
 ```
 
-# Usage and Options
-To use the component you can choose between these selectors: `<ng2-fa></ng2-fa>`, `<fa></fa>`, `<ng4-fa><ng4-fa>`, or `<ng-fa><ng-fa>`.
+# Usage and
 
 Name      | Type               | Options                                   | Optional
 ---       | ---                | ---                                       | ---
