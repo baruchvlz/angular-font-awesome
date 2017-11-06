@@ -11,7 +11,6 @@
 After the release of Angular version 5 the library was giving an [error](https://github.com/baruchvlz/angular-font-awesome/issues/25) with the compiler, this lead
 me into having to rethink the whole development structure of the library.
 
-* Even though there's not direct dependency to AngularCLI. The library will not work without it. **Hoping for a temporary downside**
 * Reduced the amount of possible tags to just one (1) `<fa></fa>`
 * Better development structure
 
