@@ -1,3 +1,7 @@
+# [3.0.4] (2017-11-06)
+* Fix Angular dependency
+
+
 # [3.0.1] (2017-11-06)
 
 * Fix module and component name.
