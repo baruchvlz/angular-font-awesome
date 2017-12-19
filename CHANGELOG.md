@@ -1,3 +1,6 @@
+# [3.1.0] (2017-12-19)
+* Fix erroneous files being published
+
 # [3.0.4] (2017-12-18)
 * Fix Angular dependency
 
