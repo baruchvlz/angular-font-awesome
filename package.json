@@ -1,6 +1,6 @@
 {
   "name": "angular-font-awesome",
-  "version": "3.0.4",
+  "version": "3.1.0",
   "description": "Compact FontAwesome library ready to be used with Angular.",
   "main": "./bundles/angular-font-awesome.umd.js",
   "module": "./angular-font-awesome.es5.js",
