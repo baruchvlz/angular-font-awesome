@@ -37,16 +37,16 @@ export class AppModule { }
 <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
 ```
 
-# Usage and
+# Usage and options
 
 Name      | Type               | Options                                   | Optional
 ---       | ---                | ---                                       | ---
 name      | `String`           | [F-A Icons](http://fontawesome.io/icons/) | No
 size      | `String`           | `lg, 2x, 3x, 4x, 5x`                      | Yes
-fixed     | `Boolean`          | `true | false`                            | Yes
-animation |  `String`          | `spin | pulse`                            | Yes
-rotate    |  `Number | String` | `90 | 180 | 270` `horizontal | vertical`  | Yes
-inverse   |  `Boolean`         | `true | false`                            | Yes
+fixed     | `Boolean`          | `true, false`                            | Yes
+animation |  `String`          | `spin, pulse`                            | Yes
+rotate    |  `Number, String` | `90, 180, 270, horizontal, vertical`     | Yes
+inverse   |  `Boolean`         | `true, false`                             | Yes
 
 *Example Use*
 ```html
