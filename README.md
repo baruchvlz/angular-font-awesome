@@ -30,7 +30,16 @@ export class AppModule { }
     "../node_modules/font-awesome/css/font-awesome.css"
 ],
 ```
+**If you're using [Angular CLI](https://github.com/angular/angular-cli) 6.0.0, add the font-awesome CSS to `styles` inside the `angular.json`**
+```json
+"styles": [
+    "styles.css",
+    "./node_modules/font-awesome/css/font-awesome.css"
+],
+```
+
 *NOTE: If using SCSS preprocessor just change the `css` for `scss`*
+
 
 **If you're not using the CLI, import the stylesheet to your `index.html` file**
 ```html
