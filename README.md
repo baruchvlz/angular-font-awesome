@@ -1,3 +1,5 @@
+**NOTE: Support for this library has stopped at FontAwesome 4.7. If you are using FontAwesome 5+ use FontAwesome's own Angular library. [link](https://github.com/FortAwesome/angular-fontawesome)**
+
 # Angular Font Awesome
 Simple, easy to use [Angular](https://angular.io) component to manage Font Awesome icons.
 
