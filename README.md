@@ -52,7 +52,7 @@ export class AppModule { }
 
 Name      | Type               | Options                                   | Optional
 ---       | ---                | ---                                       | ---
-name      | `String`           | [F-A Icons](http://fontawesome.io/icons/) | No
+name      | `String`           | [F-A Icons](https://fontawesome.com/v4.7.0/icons/) | No
 size      | `String`           | `lg, 2x, 3x, 4x, 5x`                      | Yes
 fixed     | `Boolean`          | `true, false`                            | Yes
 animation |  `String`          | `spin, pulse`                            | Yes
